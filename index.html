@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--jQuery library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--Latest compiled and minified JavaScript-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifestyle Store</title>
+</head>
+<style>
+    body{
+        width: 100%;
+        height:100%;
+        margin: 0;
+    }
+    a{
+        text-decoration: none;
+        background-color: transparent;
+        color:#ededed;
+    }
+    .header{
+        background-color: #000;
+        color: #fff;
+        border-color: #080808;
+        min-height: 50px;
+        border: 1px solid transparent;
+    }
+    .inner-header{
+        width: 80%;
+        margin: auto;
+    }
+    .logo{
+        float: left;
+        height: 50px;
+        padding: 15px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .header-link{
+        float: right;
+        font-size: 14px;
+        height: 50px;
+        padding: 15px 15px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .content{
+        min-height: 600px;
+    }
+    .banner-image{
+        padding-bottom: 50px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: #f8f8f8;
+        background:url(intro-bg_1.jpg)no-repeat center ;
+        background-size: cover;
+    }
+    .inner-banner-image{
+        padding-top: 12%;
+        width: 80%;
+        margin: auto;
+    }
+    .banner-content{
+        position: relative;
+        padding-top: 6%;
+        padding-bottom: 6%;
+        overflow: hidden;
+        margin-bottom: 12%;
+        background-color: rgba(0,0,0,0.7);
+        max-width: 660px;
+    }
+    .btn{
+        color: #fff;
+        background-color: #c9302c;
+        border-color: #ac2925;
+        box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+        padding: 10px 16px;
+        font-size: 18px;
+        border-radius: 6px;
+    }
+    .container{
+        width: 90%;
+        margin: auto;
+        overflow: hidden;
+    }
+    .items{
+        width: 30%;
+        display: block;
+        padding: 4px;
+        margin: 20px;
+        line-height: 1.42857143;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        float:left;
+        margin-left:1%;
+    }
+    .thumbnail{
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    .caption{
+        color: #000;
+        padding: 0px 10px 10px;
+        font-weight: bold;
+        text-align: center;
+    }
+    footer{
+        background-color: #000;
+        color: #fff;
+        font-size: 14px;
+    }
+</style>
+<body>
+    <div class="header">
+        <div class="inner-header">
+            <div class="logo">Lifestyle Store</div>
+            <div class="header-link">SignUp</div>
+            <div class="header-link">Login</div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="banner-image">
+            <div class="inner-banner-image">
+                <center>
+                <div class="banner-content">
+                    <h1>We sell lifestyle</h1>
+                    <p>Flat 40% OFF on premium brands</p>
+                    <a href="#" class="btn">Shop Now</a>
+                </div>
+                </center>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Thumbnails</h1>
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="products.php#cameras" class="thumbnail"><img src="camera.jpg" alt="Responsive image">
+                    <div class="caption">
+                        <h3>Camara</h3>
+                        <p>Choose among the best available in the world.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a href="product.php#shirts" class="thumbnail"><img src="shirt.jpg" alt="Responsive image">
+                    <div class="caption">
+                        <h3>Shirts</h3>
+                        <p>Our exquisite collection of shirts.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a href="product.php#watches" class="thumbnail"><img src="watch.jpg" alt="Responsive image">
+                    <div class="caption">
+                        <h3>Watches</h3>
+                        <p>Original watches from the best brands.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <center>
+                <p>Copyright © Lifestyle Store. All Rights Reserved | Contact Us: +91 90000 00000</p>
+            </center>
+        </div>
+    </footer>
+</body>
+</html>
